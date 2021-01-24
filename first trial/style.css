@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    border: 0ch;
+}
+
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    color: antiquewhite;
+    position: relative;
+    text-align: center;
+}
+.navbar h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    border-bottom: 5px solid darkgray;
+    text-align: center;
+}
