@@ -3,9 +3,53 @@
     border: 0ch;
 }
 
-.navbar{
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 2px;
-    padding top: 2px;
+html{
+    height: 100;
+    overflow: hidden;
+}
+h1{
+    font-size: 350%;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: rgb(255, 240, 242);
+    position: abs;
     
+}
+h2{
+    color: whitesmoke;
+    font-size: small;
+    font-weight: 500;
+    margin-left: 5%;
+    letter-spacing: 1.5px;
+}
+
+.topbar{
+    padding-top: 5%;
+    padding-bottom: 40%;
+    background-color: rgb(53, 0, 83);
+    position: relative;
+    text-align: justify;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#avatar{
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    display: inline-block;
+}
+
+.planets{
+    width: 200px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+   fill: violet;
+}
+midbar{
+
+
 }
