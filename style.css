@@ -1,55 +1,59 @@
-*{
-    margin: 0%;
-    border: 0ch;
+* {
+  margin: 0%;
+  border: 0ch;
 }
 
-html{
-    height: 100;
-    overflow: hidden;
+html {
+  height: 700;
+  overflow: hidden;
 }
-h1{
-    font-size: 350%;
-    margin-left: 5%;
-    margin-top: 10%;
-    color: rgb(255, 240, 242);
-    position: abs;
-    
+h1 {
+  font-size: 350%;
+  margin-left: 5%;
+  color: rgb(255, 240, 242);
+  position: resolution;
 }
-h2{
-    color: whitesmoke;
-    font-size: small;
-    font-weight: 500;
-    margin-left: 5%;
-    letter-spacing: 1.5px;
+h2 {
+  color: whitesmoke;
+  font-size: small;
+  font-weight: 500;
+  margin-left: 5%;
+  letter-spacing: 1.5px;
 }
 
-.topbar{
-    padding-top: 5%;
-    padding-bottom: 40%;
-    background-color: rgb(53, 0, 83);
-    position: relative;
-    text-align: justify;
-    color: aliceblue;
-    font-family: 'Montserrat', sans-serif;
-    
+.main {
+  padding-bottom: 70%;
+  background-image: url(/pics/background/bg2.png);
+  background-size: contain;
+  background-position: top;
+  position: relative;
 }
 
-#avatar{
-    width: 25%;
-    position: absolute;
-    top: 10%;
-    right: 10%;
-    display: inline-block;
+.main h1 {
+  text-align: justify;
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: 25%;
+  padding-top: 15%;
 }
 
-.planets{
-    width: 200px;
-    position: absolute;
-    right: 10%;
-    top: 55%;
-   fill: violet;
+#avatar {
+  width: 25%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  display: inline-block;
 }
-midbar{
 
-
+.planets {
+  width: 200px;
+  position: absolute;
+  right: 10%;
+  top: 55%;
+  fill: violet;
+}
+.midbar {
+  background-color: rgb(255, 255, 204);
+  padding: 40%, 100%, 30%;
 }
