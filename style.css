@@ -38,6 +38,10 @@ h2 {
   padding-top: 15%;
 }
 
+.main h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
 #avatar {
   width: 25%;
   position: absolute;
