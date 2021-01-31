@@ -4,7 +4,7 @@
 }
 
 html {
-  height: 700;
+  
   overflow: hidden;
 }
 h1 {
@@ -27,6 +27,7 @@ h2 {
   background-size: contain;
   background-position: top;
   position: relative;
+  
 }
 
 .main h1 {
@@ -40,10 +41,11 @@ h2 {
 
 .main h2{
   font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
 }
 
 #avatar {
-  width: 25%;
+  width: 20%;
   position: absolute;
   top: 10%;
   right: 10%;
@@ -59,5 +61,6 @@ h2 {
 }
 .midbar {
   background-color: rgb(255, 255, 204);
-  padding: 40%, 100%, 30%;
+  padding-bottom: 50%;
+  margin-top: 50%;
 }
